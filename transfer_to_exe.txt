@@ -1,0 +1,3 @@
+pyinstaller main.py -p insert.py -p query.py -p delete.py -p calculate.py -p update.py --hidden-import insert --hidden-import query --hidden-import delete --hidden-import calculate --hidden-import update
+
+pyinstaller main.py -p insert.py -p query.py -p delete.py  -p update.py --hidden-import insert --hidden-import query --hidden-import delete --hidden-import update
